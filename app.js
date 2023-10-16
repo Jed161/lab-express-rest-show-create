@@ -22,4 +22,4 @@ app.use("/404", (req, res, next) => {
     res.status(404).send("No logs at that index.");
   });
 
-  modules.exports = app;
+  module.exports = app;
